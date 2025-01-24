@@ -20,8 +20,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Ucp1Theme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
-                    Greeting(
-                        name = "Android",
+                    PemesananKAI(
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
